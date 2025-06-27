@@ -29,5 +29,4 @@ jobs:
           fi
 
       - name: Run tests
-        run: python -m pytest --maxfail=1
---disable-warnings -q
+        run: python -m pytest --maxfail=1 --disable-warnings -q
