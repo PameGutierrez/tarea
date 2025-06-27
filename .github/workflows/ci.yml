@@ -28,4 +28,4 @@ jobs:
             pip install -r requirements.txt; fi
 
       - name: Run tests
-        run: python -m pytest --maxfail= --disable-warnings -q
+        run: python -m pytest --maxfail=1 --disable-warnings -q
